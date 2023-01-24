@@ -4,7 +4,7 @@ const Header = ({ title }) => {
   return <h1>{title ? title: 'Default title'}</h1>;
 }
 
-const Homepage= () => {
+export default Homepage= () => {
   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
 
   const [likes, setLikes] = useState(0);
